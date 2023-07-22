@@ -502,6 +502,15 @@ transition: transform 400ms, opacity 200ms;
 
     } 
 
+
+    .img1 img{
+        width: 400px;
+    }
+
+    .img2 video{
+        width: 430px;
+    }
+
     .cartoons, .bear{
         display: flex;
         flex-direction: column;
