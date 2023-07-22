@@ -1,0 +1,123 @@
+div{
+    width: 200px;
+    position: absolute;
+    margin: 10%;
+    background-color: blue;
+    animation-name: div_animation;
+    animation-timing-function: ease-in-out;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+}
+
+
+@keyframes div_animation {
+
+    from{
+        transform: rotate(0deg);
+    }
+
+    to{
+        transform: rotate(360deg);
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* div{
+    background-color: yellowgreen;
+    height: 100px;
+    width: 100px;
+    transform: translate(50px,100px);
+    margin: 100px;
+    transition: 5s ease-in-out;
+}
+
+
+div:hover{
+    transform:  rotate(400deg) scale(1.5);
+    border-radius: 50%;
+
+}  */
+
+/* *{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.navigation{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    margin-right: 50px;
+    background-color:black ;
+    height: 80px;
+   align-items: center;
+   width: 50px;
+   position: relative;
+   z-index: 1;
+
+}
+
+
+.navigation a {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+
+
+
+
+}
+
+.image:hover{
+    transition: transform 1s;
+    transform:scale(1.03);
+}
+
+
+.animation{
+    transition: 1s ease-in-out;
+    background-color: black;
+    height: 200px;
+    width: 200px;
+    align-items: center;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 300px;
+
+}
+
+
+.animation p{
+    color:white;
+}
+.animation:hover{
+    transform: translate(400px) rotate(400deg) scale(0.5);
+    border-radius: 50%;
+    background-color: brown;
+}
+ */
